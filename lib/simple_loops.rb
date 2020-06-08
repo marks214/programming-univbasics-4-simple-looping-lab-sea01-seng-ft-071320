@@ -21,5 +21,5 @@ def return_string_array(array)
   new_array = new_array.push|string|
   end
   puts new_array
-  
+
 end
