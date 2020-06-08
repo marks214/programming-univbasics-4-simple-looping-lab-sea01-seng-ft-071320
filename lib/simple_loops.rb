@@ -16,10 +16,11 @@ end
 
 def return_string_array(array)
   new_array = []
-
-  array.each do |element|
-    string = element.to_s
-    new_array << string
+  i = 0
+  while i < array.length do
+    string = array[i].to_s
+    new_array[i] << string
+    i += 0
   end
 
   puts new_array
