@@ -11,7 +11,7 @@ def loop_message_n_times(string, number)
 end
 
 def output_array(array)
-  puts array  
+  puts array
 end
 
 def return_string_array(array)
