@@ -22,6 +22,6 @@ def return_string_array(array)
     i += 1
   end
 
-  puts new_array.class
+  puts new_array[0].class
 
 end
