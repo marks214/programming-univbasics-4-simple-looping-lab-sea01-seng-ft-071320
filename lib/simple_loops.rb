@@ -19,7 +19,7 @@ def return_string_array(array)
 
   array.each do |element|
     string = element.to_s
-    new_array = new_array.push(string)
+    new_array << string
   end
 
   puts new_array
